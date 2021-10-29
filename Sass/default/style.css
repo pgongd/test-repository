@@ -1,0 +1,17 @@
+.contents {
+  border: 2px solid #303a98;
+  padding: 10px;
+}
+
+.contents-tit {
+  color: #303a98;
+}
+
+.contents-tit::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #303a98;
+}
+/*# sourceMappingURL=style.css.map */
